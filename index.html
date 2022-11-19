@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+
+    <style>
+
+        *{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #f9fad2;
+            color: #88d3ab;
+        }
+
+        input{
+            border-radius: 20px;
+            border-color: #88d3ab;
+            
+        }
+
+        h2{
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 id="title">Bem vindo ao sorteador!</h1>
+
+    <p>Digite o número mínimo:</p>
+    <input type="text" name="mínimo" id="min" class="textarea">
+    <br>
+
+    <p>Digite o número máximo:</p>
+    <input type="text" name="máximo" id="max" class="textarea">
+    <br><br>
+
+    <input type="submit" id="enviar">
+    <br>
+
+    <p>O número sorteado foi:</p>
+    <h2 id="sorte">0</h2>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
